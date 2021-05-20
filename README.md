@@ -1,5 +1,12 @@
 # Zemoga's Tech Test
 
+## Stack:
+
+- NodeJS
+- Express
+- MongoDB
+- React
+
 ## API url
 
 ### `/api/profile/tweets`
@@ -51,5 +58,7 @@ npm run test:e2e
 ```
 
 ## Authors
+
+I spent about 8 hours to finish the test.
 
 - [Juan Jose Vega](https://github.com/juanjosevega99)

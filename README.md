@@ -18,7 +18,7 @@ This route allows you to update the information of a profile.
 
 Feel free to use npm or yarn
 
-Install the package in root folder and frontend folder (run the API first)
+Install the package in root folder and frontend folder
 
 ```bash
 $ npm install
@@ -34,9 +34,13 @@ Check the .env.example and copy in .env with your Twitter user name
 
 ## Run
 
+Run the API first
+
 ```bash
 npm start
 ```
+
+If you run the e2e test first, the mock data will be inserted into the db for viewing in the UI.
 
 ## Test
 

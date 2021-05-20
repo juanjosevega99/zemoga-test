@@ -1,36 +1,51 @@
 # Zemoga's Tech Test
 
-## Instructions
-Follow this steps:
+## API url
+
+### `/api/profile/tweets`
+
+This route handles the five last tweets by user.
+
+### `/api/profile`
+
+This route handles obtain user information.
+
+### `/api/profile:profileId`
+
+This route allows you to update the information of a profile.
 
 ### Installation
+
+Feel free to use npm or yarn
+
+Install the package in root folder and frontend folder (run the API first)
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+Docker to run the local DB
 
 ```bash
-# development
-$ npm run start
-# watch mode
-$ npm run start:dev
+$ docker-compose up -d
+```
+
+Check the .env.example and copy in .env with your Twitter user name
+
+## Run
+
+```bash
+npm start
 ```
 
 ## Test
 
+If you want run tests, run the next line:
+
 ```bash
-# test coverage
-$ npm run test:e2e
+npm run test:e2e
 ```
 
-## DataBase
-A relational DB like MySQL might be a better approach to solve this  challenge, however, I felt the same could be  achieved using MongoDB with Mongoose ORM, besides, I feel more comfortable working with these technologies.  
-(You can see the data saved in mongoDB Atlas and verify that all the requirements were solved)
+## Authors
 
-## Stay in touch
-
-- Feel free to do a pull request
-- Website - [juanjosevega99.github.io](https://juanjosevega99.github.io/)
-- Twitter - [@juanjosevega99](https://twitter.com/juanjosevega99)
+- [Juan Jose Vega](https://github.com/juanjosevega99)
